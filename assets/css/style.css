@@ -1,7 +1,32 @@
-.N1 {
-    background-color: pink;
-    color: red;
-    border-color: black;
-    font-size: large;
-    line-height: 50vh;
+body { 
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+.title {
+    color: white;
+    background-color: black;
+}
+.navigate {
+    background-color: grey;
+    color: white;
+}
+.topp {
+    background-color: black;
+    color: white;
+}
+.cars {
+    background-color: grey;
+    color: white;
+}
+.bottomp {
+    background-color: black;
+    color: white;
+}
+.social {
+    background-color: grey;
+    color: white;
+}
+.info {
+    background-color: black;
+    color: white;
 }

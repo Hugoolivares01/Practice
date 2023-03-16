@@ -1,7 +1,8 @@
-body { 
+body {
     background-image: url("../images/background.jpg");
     background-size: cover;
 }
+
 .title {
     overflow: auto;
     height: 20vh;
@@ -9,22 +10,28 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Times New Roman', Times, serif;
 }
+
 .titlewords {
     display: flex;
     flex-wrap: wrap;
 }
+
 .titlewords h1 {
     display: flex;
     justify-content: center;
     height: 50%;
     width: 100%;
+    margin: 0px;
 }
+
 .titlewords p {
     display: flex;
     justify-content: center;
     height: 50%;
     width: 100%;
+    margin: 0px;
 }
+
 .navigate {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +41,7 @@ body {
     font-size: 90%;
     width: 100%;
 }
+
 .logoimg {
     display: flex;
     padding-top: 2%;
@@ -41,10 +49,12 @@ body {
     width: 35%;
     height: 70%;
 }
+
 .logoimg img {
     width: 50%;
     height: 100%;
 }
+
 .links {
     display: flex;
     align-items: center;
@@ -52,48 +62,63 @@ body {
     height: 100%;
     width: 65%;
 }
-.links a{
+
+.links a {
     padding-left: 4%;
 }
-.links :nth-child(1){
+
+.links :nth-child(1) {
     padding-left: 10%;
 }
-.links :nth-child(5){
+
+.links :nth-child(5) {
     padding-left: 10%;
 }
+
 .links a:link {
     color: rgb(74, 85, 95);
 }
+
 .links a:visited {
     color: rgb(74, 85, 95);
 }
-.links a:active{
+
+.links a:active {
     color: rgb(250, 255, 240);
 }
+
 .topp {
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     height: 60vh;
 }
+
+.topp img {
+    height: 100%;
+    width: 100%;
+}
+
 .cars {
     overflow: auto;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
     height: 100vh;
 }
+
 .bottomp {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     height: 100vh;
 }
+
 .social {
     overflow: auto;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
     height: 60vh;
 }
+
 .info {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
